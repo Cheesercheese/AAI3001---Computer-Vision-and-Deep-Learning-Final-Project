@@ -1,11 +1,11 @@
-import streamlit as st
+ctimport streamlit as st
 from PIL import Image
 
 # Set title
 st.title("Display results.png")
 
 # Load and display the image
-image_path = "/runs/results.png"  # Ensure this path is correct
+image_path = "/runs/detect/train/results.png"  # Ensure this path is correct
 try:
     image = Image.open(image_path)
     st.image(image, caption="Results", use_column_width=True)
