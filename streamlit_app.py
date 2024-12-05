@@ -1,4 +1,4 @@
-ctimport streamlit as st
+import streamlit as st
 from PIL import Image
 
 # Set title
